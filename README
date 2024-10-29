@@ -1,0 +1,4 @@
+python3 main.py input.txt 
+python3 test.py
+antlr4 -Dlanguage=Python3 grammar/ExprLexer.g4 grammar/ExprParser.g4 -o ./build -Xexact-output-dir -visitor -no-listener
+
